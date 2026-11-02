@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d10">
+  <meta name="description" content="DanPlays community hub: explore rewards, learn about DanCoins and the upcoming Twitch-connected store and contests.">
+  <title>DanPlays | Community Store & Contests</title>
+  <link rel="icon" href="/assets/danplays-logo.webp" type="image/webp">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="DanPlays home">
+        <img src="/assets/danplays-logo.webp" alt="" width="56" height="54">
+        <span class="brand-type"><strong>DAN<span>PLAYS</span></strong><small>THE COMMUNITY HUB</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link current">Home</a>
+        <a href="#store" class="nav-link">Reward Store</a>
+        <a href="#contests" class="nav-link">Contests</a>
+        <a href="#how" class="nav-link">How it works</a>
+        <a class="nav-external" href="https://www.twitch.tv/danplays_tv" target="_blank" rel="noopener noreferrer">Watch live <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> DANPLAYS COMMUNITY • SITE PREVIEW</span>
+          <h1 id="hero-title">Your stream.<br><span>Your rewards.</span><br>Your community.</h1>
+          <p>One place for everything DanPlays. Spend DanCoins on stream rewards, stay close to the action and join the fun on Twitch.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#store">Explore the store <span aria-hidden="true">→</span></a>
+            <a class="button button-outline" href="#contests">View contests</a>
+          </div>
+          <div class="hero-note"><span class="tiny-pulse" aria-hidden="true"></span> The website design is ready to preview. Redemptions and Twitch login are not active yet.</div>
+        </div>
+        <div class="hero-art" aria-label="DanPlays crest logo">
+          <div class="art-halo" aria-hidden="true"></div>
+          <div class="art-orbit orbit-one" aria-hidden="true"></div>
+          <div class="art-orbit orbit-two" aria-hidden="true"></div>
+          <img class="hero-logo" src="/assets/danplays-logo.webp" alt="DanPlays gaming controller crest logo" width="480" height="465">
+          <div class="art-caption"><span class="line"></span> PLAY • EARN • REDEEM <span class="line"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Community features">
+      <div class="shell ticker-inner">
+        <span><span class="spark">✦</span> DanCoins rewards</span>
+        <span><span class="spark">✦</span> Community contests</span>
+        <span><span class="spark">✦</span> Twitch-connected experiences</span>
+      </div>
+    </div>
+
+    <section id="store" class="section store-section" aria-labelledby="store-heading">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">01 / THE STORE</p>
+            <h2 id="store-heading">Make the stream <em>yours.</em></h2>
+            <p class="section-intro">Use the DanCoins you earn in chat to unlock community rewards. These example cards show how your rewards will look once Stream Hub is connected.</p>
+          </div>
+          <span class="section-stamp">REWARDS / PREVIEW</span>
+        </div>
+        <div class="store-toolbar">
+          <div class="filters" role="group" aria-label="Filter example rewards">
+            <button type="button" class="filter active" data-filter="all" aria-pressed="true">All rewards</button>
+            <button type="button" class="filter" data-filter="stream" aria-pressed="false">Stream</button>
+            <button type="button" class="filter" data-filter="interactive" aria-pressed="false">Interactive</button>
+          </div>
+          <label class="searchbox"><span class="visually-hidden">Search example rewards</span><span aria-hidden="true">⌕</span><input id="reward-search" type="search" placeholder="Search example rewards…" autocomplete="off"></label>
+        </div>
+        <div class="reward-grid" id="reward-grid">
+          <article class="reward-card" data-category="stream" data-title="Sound Alert">
+            <div class="reward-art reward-art-amber"><span class="reward-symbol" aria-hidden="true">♫</span><span class="example-mark">EXAMPLE</span></div>
+            <div class="reward-content"><span class="card-tag">STREAM</span><h3>Sound Alert</h3><p>Make yourself heard with a sound on stream.</p><div class="reward-bottom"><span class="cost-unset">Price set in Stream Hub</span><button type="button" disabled title="Store is not connected yet">Coming soon</button></div></div>
+          </article>
+          <article class="reward-card" data-category="interactive" data-title="Choose the Next Game">
+            <div class="reward-art reward-art-violet"><span class="reward-symbol" aria-hidden="true">✣</span><span class="example-mark">EXAMPLE</span></div>
+            <div class="reward-content"><span class="card-tag">INTERACTIVE</span><h3>Choose the Next Game</h3><p>Put your favourite game into the conversation.</p><div class="reward-bottom"><span class="cost-unset">Price set in Stream Hub</span><button type="button" disabled title="Store is not connected yet">Coming soon</button></div></div>
+          </article>
+          <article class="reward-card" data-category="interactive" data-title="Wheel Challenge">
+            <div class="reward-art reward-art-teal"><span class="reward-symbol" aria-hidden="true">✳</span><span class="example-mark">EXAMPLE</span></div>
+            <div class="reward-content"><span class="card-tag">INTERACTIVE</span><h3>Wheel Challenge</h3><p>Add a little unpredictability to the broadcast.</p><div class="reward-bottom"><span class="cost-unset">Price set in Stream Hub</span><button type="button" disabled title="Store is not connected yet">Coming soon</button></div></div>
+          </article>
+        </div>
+        <p class="empty-search" id="empty-search" hidden>No example rewards match that search.</p>
+        <div class="notice-strip"><span class="notice-icon" aria-hidden="true">i</span><p><strong>Store preview only.</strong> Real rewards, prices, balances and purchases will come from your DanPlays Stream Hub and a secure website database — not from GitHub commits.</p></div>
+      </div>
+    </section>
+
+    <section id="contests" class="section contests-section" aria-labelledby="contest-heading">
+      <div class="shell contests-grid">
+        <div class="contests-copy">
+          <p class="section-kicker">02 / COMMUNITY CONTESTS</p>
+          <h2 id="contest-heading">More than <em>just watching.</em></h2>
+          <p>Giveaways and predictions bring the whole chat together. Viewers join through Twitch chat, while trusted moderators will manage events through a private dashboard.</p>
+          <div class="contest-points">
+            <div><span class="point-icon" aria-hidden="true">01</span><p><strong>Giveaways</strong><small>Enter in chat. Let the bot handle entries and winners.</small></p></div>
+            <div><span class="point-icon" aria-hidden="true">02</span><p><strong>Predictions</strong><small>Back your picks with DanCoins when predictions open.</small></p></div>
+            <div><span class="point-icon" aria-hidden="true">03</span><p><strong>Moderator controls</strong><small>Private access for you and approved moderators only.</small></p></div>
+          </div>
+        </div>
+        <div class="mod-panel" aria-label="Concept of the future moderator dashboard">
+          <div class="panel-top"><span class="panel-title"><span class="panel-lock" aria-hidden="true">◆</span> MODERATOR DESK</span><span class="panel-flag">PREVIEW</span></div>
+          <div class="panel-body">
+            <div class="panel-identity"><span class="panel-avatar">DP</span><div><strong>Contests dashboard</strong><small>Twitch moderator access required</small></div><span class="panel-dot" aria-hidden="true"></span></div>
+            <div class="panel-row"><span class="panel-row-icon" aria-hidden="true">★</span><div><strong>Manage giveaways</strong><small>Create, close and draw winners</small></div><span aria-hidden="true">›</span></div>
+            <div class="panel-row"><span class="panel-row-icon" aria-hidden="true">◎</span><div><strong>Run predictions</strong><small>Open events and settle outcomes</small></div><span aria-hidden="true">›</span></div>
+            <div class="panel-row"><span class="panel-row-icon" aria-hidden="true">▤</span><div><strong>Review history</strong><small>See actions and payouts</small></div><span aria-hidden="true">›</span></div>
+            <div class="panel-footer">SECURE MODERATOR SIGN-IN <span>NOT ENABLED YET</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section how-section" aria-labelledby="how-heading">
+      <div class="shell">
+        <div class="center-head"><p class="section-kicker">03 / HOW IT WILL WORK</p><h2 id="how-heading">One connected <em>experience.</em></h2><p>Set up a reward once in Stream Hub. The website will handle the rest once our secure connection is complete.</p></div>
+        <div class="steps">
+          <div class="step"><span class="step-number">01</span><div class="step-graphic" aria-hidden="true">▣</div><h3>Create in Stream Hub</h3><p>You choose the reward, DanCoins price and availability in your desktop application.</p></div>
+          <div class="step"><span class="step-number">02</span><div class="step-graphic" aria-hidden="true">⌁</div><h3>Publish automatically</h3><p>A secure cloud sync makes those rewards available to viewers on this website.</p></div>
+          <div class="step"><span class="step-number">03</span><div class="step-graphic" aria-hidden="true">✦</div><h3>Redeem and announce</h3><p>After Twitch login and balance checks, purchases reach your bot for chat announcements.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="shell">
+        <div class="cta-box">
+          <div><p class="section-kicker">JOIN THE COMMUNITY</p><h2 id="cta-heading">The game is better <em>together.</em></h2><p>Catch DanPlays live on Twitch while we get the full store up and running.</p></div>
+          <a class="button button-primary" href="https://www.twitch.tv/danplays_tv" target="_blank" rel="noopener noreferrer">Visit danplays_tv <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="footer-brand" href="#home"><img src="/assets/danplays-logo.webp" width="44" height="43" alt=""><strong>DANPLAYS</strong></a>
+      <p>Built for the DanPlays community. Website foundation preview — no live redemptions yet.</p>
+      <a href="https://www.twitch.tv/danplays_tv" target="_blank" rel="noopener noreferrer">Twitch ↗</a>
+    </div>
+  </footer>
+</body>
+</html>
