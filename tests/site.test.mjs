@@ -28,5 +28,5 @@ test('static hosting settings are ready for Cloudflare Pages', () => {
   const headers = read('public/_headers');
   assert.match(headers, /Content-Security-Policy:/);
   assert.match(headers, /connect-src 'none'/);
-  assert.match(read('docs/DEPLOY-CLOUDFLARE.md'), /Build output directory:[*]* \x60public\x60/);
+  assert.match(read('docs/DEPLOY-CLOUDFLARE.md'), /Build output directory:\*\* \x60public\x60/);
 });
