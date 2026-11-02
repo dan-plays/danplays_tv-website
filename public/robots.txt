@@ -1,0 +1,3 @@
+# This is an unfinished preview. Remove these rules at public launch.
+User-agent: *
+Disallow: /
